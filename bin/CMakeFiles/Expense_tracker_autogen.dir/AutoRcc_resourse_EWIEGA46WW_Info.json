@@ -1,0 +1,32 @@
+{
+	"BUILD_DIR" : "E:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen",
+	"CMAKE_BINARY_DIR" : "E:/progr/c++/QT/Expense_tracker/bin",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/progr/c++/QT/Expense_tracker/bin",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/progr/c++/QT/Expense_tracker",
+	"CMAKE_SOURCE_DIR" : "E:/progr/c++/QT/Expense_tracker",
+	"INCLUDE_DIR" : "E:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen/include",
+	"INPUTS" : 
+	[
+		"E:/progr/c++/QT/Expense_tracker/resourse/icon/delete_white_24dp.svg",
+		"E:/progr/c++/QT/Expense_tracker/resourse/icon/sports_esports_white_24dp.svg",
+		"E:/progr/c++/QT/Expense_tracker/resourse/icon/call_received_white_24dp.svg",
+		"E:/progr/c++/QT/Expense_tracker/resourse/icon/post_add_white_24dp.svg",
+		"E:/progr/c++/QT/Expense_tracker/resourse/icon/edit_white_24dp.svg",
+		"E:/progr/c++/QT/Expense_tracker/resourse/icon/local_grocery_store_white_24dp.svg",
+		"E:/progr/c++/QT/Expense_tracker/resourse/icon/list_white_24dp.svg",
+		"E:/progr/c++/QT/Expense_tracker/resourse/icon/delete_FILL0_wght400_GRAD0_opsz24.svg",
+		"E:/progr/c++/QT/Expense_tracker/resourse/icon/directions_car_white_24dp.svg",
+		"E:/progr/c++/QT/Expense_tracker/resourse/icon/delete_black_24dp.svg",
+		"E:/progr/c++/QT/Expense_tracker/resourse/icon/north_west_white_24dp.svg"
+	],
+	"LOCK_FILE" : "E:/progr/c++/QT/Expense_tracker/bin/CMakeFiles/Expense_tracker_autogen.dir/AutoRcc_resourse_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resourse" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resourse.cpp",
+	"RCC_EXECUTABLE" : "E:/progr/QT/6.6.1/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "E:/progr/c++/QT/Expense_tracker/bin/CMakeFiles/Expense_tracker_autogen.dir/AutoRcc_resourse_EWIEGA46WW_Used.txt",
+	"SOURCE" : "E:/progr/c++/QT/Expense_tracker/resourse.qrc",
+	"VERBOSITY" : 0
+}

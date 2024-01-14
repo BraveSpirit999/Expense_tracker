@@ -1,0 +1,15 @@
+# ninja log v5
+475	4085	7267002726721633	CMakeFiles/Expense_tracker.dir/Expense_tracker_autogen/mocs_compilation.cpp.obj	97ce10140a810f3b
+5	514	7267009674928936	Expense_tracker_autogen/timestamp	90d3846429be25f8
+5	514	7267009674928936	Expense_tracker_autogen/mocs_compilation.cpp	90d3846429be25f8
+5	514	7267009674928936	E:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen/mocs_compilation.cpp	90d3846429be25f8
+5	514	7267009674928936	E:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen/timestamp	90d3846429be25f8
+90	3275	7267008708531599	CMakeFiles/Expense_tracker.dir/widget.cpp.obj	fa8e044a5b71c04a
+106	3460	7267006293748784	CMakeFiles/Expense_tracker.dir/main.cpp.obj	a78f5b78bca2434
+92	1991	7265172233740030	CMakeFiles/Expense_tracker.dir/stylehelper.cpp.obj	b96c11ad94a93e9a
+4945	5194	7267002737780352	Expense_tracker.exe	5fb52bb272abdf71
+169	226	7263485403777515	Expense_tracker_autogen/EWIEGA46WW/qrc_resourse.cpp	5a1ddbf5e575ebf6
+169	226	7263485403777515	E:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen/EWIEGA46WW/qrc_resourse.cpp	5a1ddbf5e575ebf6
+518	590	7267009676127415	CMakeFiles/Expense_tracker.dir/Expense_tracker_autogen/EWIEGA46WW/qrc_resourse.cpp.obj	ae07602280076fb0
+89	3217	7267008707951950	CMakeFiles/Expense_tracker.dir/dialog.cpp.obj	ed57e2eb7edca0d0
+2	489	7267009684235115	build.ninja	e64488b60c93c3f8
