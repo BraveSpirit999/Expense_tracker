@@ -8,7 +8,8 @@ set(CMAKE_AUTORCC ON)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
+# Установка конфигурации "RelWithDebInfo" для сборки проекта
+set(CMAKE_BUILD_TYPE "RelWithDebInfo" CACHE STRING "Choose the type of build." FORCE)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 find_package(SQLite::SQLite3)
@@ -19,7 +20,8 @@ set(PROJECT_SOURCES
         widget.h
         widget.ui
 )
-
+# Установка конфигурации "RelWithDebInfo" для сборки проекта
+set(CMAKE_BUILD_TYPE "RelWithDebInfo" CACHE STRING "Choose the type of build." FORCE)
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Expense_tracker
         MANUAL_FINALIZATION

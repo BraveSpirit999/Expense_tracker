@@ -1,5 +1,6 @@
 E:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen/EWIEGA46WW/moc_widget.cpp: E:/progr/c++/QT/Expense_tracker/widget.h \
   E:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen/moc_predefs.h \
+  E:/progr/QT/6.6.1/mingw_64/include/QtCore/QSettings \
   E:/progr/QT/6.6.1/mingw_64/include/QtCore/q20functional.h \
   E:/progr/QT/6.6.1/mingw_64/include/QtCore/q20memory.h \
   E:/progr/QT/6.6.1/mingw_64/include/QtCore/q20type_traits.h \
@@ -72,6 +73,7 @@ E:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen/EWIEGA46WW/moc_widge
   E:/progr/QT/6.6.1/mingw_64/include/QtCore/qscopedpointer.h \
   E:/progr/QT/6.6.1/mingw_64/include/QtCore/qscopeguard.h \
   E:/progr/QT/6.6.1/mingw_64/include/QtCore/qset.h \
+  E:/progr/QT/6.6.1/mingw_64/include/QtCore/qsettings.h \
   E:/progr/QT/6.6.1/mingw_64/include/QtCore/qshareddata.h \
   E:/progr/QT/6.6.1/mingw_64/include/QtCore/qshareddata_impl.h \
   E:/progr/QT/6.6.1/mingw_64/include/QtCore/qsharedpointer.h \
@@ -153,7 +155,9 @@ E:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen/EWIEGA46WW/moc_widge
   E:/progr/QT/6.6.1/mingw_64/include/QtSql/qtsql-config.h \
   E:/progr/QT/6.6.1/mingw_64/include/QtSql/qtsqlexports.h \
   E:/progr/QT/6.6.1/mingw_64/include/QtSql/qtsqlglobal.h \
+  E:/progr/QT/6.6.1/mingw_64/include/QtWidgets/QDialog \
   E:/progr/QT/6.6.1/mingw_64/include/QtWidgets/QWidget \
+  E:/progr/QT/6.6.1/mingw_64/include/QtWidgets/qdialog.h \
   E:/progr/QT/6.6.1/mingw_64/include/QtWidgets/qsizepolicy.h \
   E:/progr/QT/6.6.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
   E:/progr/QT/6.6.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
@@ -357,4 +361,5 @@ E:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen/EWIEGA46WW/moc_widge
   E:/progr/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/sys/types.h \
   E:/progr/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   E:/progr/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
-  E:/progr/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
+  E:/progr/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
+  E:/progr/c++/QT/Expense_tracker/dialog.h

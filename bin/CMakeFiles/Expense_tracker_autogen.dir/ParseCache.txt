@@ -358,6 +358,7 @@ E:/progr/c++/QT/Expense_tracker/dialog.cpp
  uic:./ui_dialog.h
 E:/progr/c++/QT/Expense_tracker/widget.h
  mmc:Q_OBJECT
+ mdp:E:/progr/QT/6.6.1/mingw_64/include/QtCore/QSettings
  mdp:E:/progr/QT/6.6.1/mingw_64/include/QtCore/q20functional.h
  mdp:E:/progr/QT/6.6.1/mingw_64/include/QtCore/q20memory.h
  mdp:E:/progr/QT/6.6.1/mingw_64/include/QtCore/q20type_traits.h
@@ -430,6 +431,7 @@ E:/progr/c++/QT/Expense_tracker/widget.h
  mdp:E:/progr/QT/6.6.1/mingw_64/include/QtCore/qscopedpointer.h
  mdp:E:/progr/QT/6.6.1/mingw_64/include/QtCore/qscopeguard.h
  mdp:E:/progr/QT/6.6.1/mingw_64/include/QtCore/qset.h
+ mdp:E:/progr/QT/6.6.1/mingw_64/include/QtCore/qsettings.h
  mdp:E:/progr/QT/6.6.1/mingw_64/include/QtCore/qshareddata.h
  mdp:E:/progr/QT/6.6.1/mingw_64/include/QtCore/qshareddata_impl.h
  mdp:E:/progr/QT/6.6.1/mingw_64/include/QtCore/qsharedpointer.h
@@ -511,7 +513,9 @@ E:/progr/c++/QT/Expense_tracker/widget.h
  mdp:E:/progr/QT/6.6.1/mingw_64/include/QtSql/qtsql-config.h
  mdp:E:/progr/QT/6.6.1/mingw_64/include/QtSql/qtsqlexports.h
  mdp:E:/progr/QT/6.6.1/mingw_64/include/QtSql/qtsqlglobal.h
+ mdp:E:/progr/QT/6.6.1/mingw_64/include/QtWidgets/QDialog
  mdp:E:/progr/QT/6.6.1/mingw_64/include/QtWidgets/QWidget
+ mdp:E:/progr/QT/6.6.1/mingw_64/include/QtWidgets/qdialog.h
  mdp:E:/progr/QT/6.6.1/mingw_64/include/QtWidgets/qsizepolicy.h
  mdp:E:/progr/QT/6.6.1/mingw_64/include/QtWidgets/qtwidgets-config.h
  mdp:E:/progr/QT/6.6.1/mingw_64/include/QtWidgets/qtwidgetsexports.h
@@ -717,6 +721,7 @@ E:/progr/c++/QT/Expense_tracker/widget.h
  mdp:E:/progr/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:E:/progr/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
  mdp:E:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen/moc_predefs.h
+ mdp:E:/progr/c++/QT/Expense_tracker/dialog.h
  mdp:E:/progr/c++/QT/Expense_tracker/widget.h
 E:/progr/c++/QT/Expense_tracker/widget.cpp
  uic:./ui_widget.h

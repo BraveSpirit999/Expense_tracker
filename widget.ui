@@ -199,7 +199,7 @@
               <item>
                <widget class="QLabel" name="label_11">
                 <property name="text">
-                 <string>Grocerles</string>
+                 <string>Groceries</string>
                 </property>
                </widget>
               </item>
@@ -371,13 +371,13 @@
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton_2">
+        <widget class="QPushButton" name="pushButton_3">
          <property name="text">
-          <string>Edit Transaction</string>
+          <string>Delete Transaction</string>
          </property>
          <property name="icon">
           <iconset resource="resourse.qrc">
-           <normaloff>:/resourse/icon/edit_white_24dp.svg</normaloff>:/resourse/icon/edit_white_24dp.svg</iconset>
+           <normaloff>:/resourse/icon/delete_white_24dp.svg</normaloff>:/resourse/icon/delete_white_24dp.svg</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -388,13 +388,13 @@
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton_3">
+        <widget class="QPushButton" name="pushButton_2">
          <property name="text">
-          <string>Delete Transaction</string>
+          <string>New month</string>
          </property>
          <property name="icon">
           <iconset resource="resourse.qrc">
-           <normaloff>:/resourse/icon/delete_white_24dp.svg</normaloff>:/resourse/icon/delete_white_24dp.svg</iconset>
+           <normaloff>:/resourse/icon/edit_white_24dp.svg</normaloff>:/resourse/icon/edit_white_24dp.svg</iconset>
          </property>
          <property name="iconSize">
           <size>

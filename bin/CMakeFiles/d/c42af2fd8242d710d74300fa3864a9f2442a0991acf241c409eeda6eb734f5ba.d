@@ -1,4 +1,5 @@
 Expense_tracker_autogen/timestamp: \
+  E:/progr/QT/6.6.1/mingw_64/include/QtCore/QSettings \
   E:/progr/QT/6.6.1/mingw_64/include/QtCore/q20functional.h \
   E:/progr/QT/6.6.1/mingw_64/include/QtCore/q20memory.h \
   E:/progr/QT/6.6.1/mingw_64/include/QtCore/q20type_traits.h \
@@ -71,6 +72,7 @@ Expense_tracker_autogen/timestamp: \
   E:/progr/QT/6.6.1/mingw_64/include/QtCore/qscopedpointer.h \
   E:/progr/QT/6.6.1/mingw_64/include/QtCore/qscopeguard.h \
   E:/progr/QT/6.6.1/mingw_64/include/QtCore/qset.h \
+  E:/progr/QT/6.6.1/mingw_64/include/QtCore/qsettings.h \
   E:/progr/QT/6.6.1/mingw_64/include/QtCore/qshareddata.h \
   E:/progr/QT/6.6.1/mingw_64/include/QtCore/qshareddata_impl.h \
   E:/progr/QT/6.6.1/mingw_64/include/QtCore/qsharedpointer.h \

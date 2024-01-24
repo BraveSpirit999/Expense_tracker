@@ -51,7 +51,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 24,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
@@ -75,25 +75,25 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 66,
+				"line" : 68,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 50,
+				"line" : 52,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 79,
+				"line" : 81,
 				"parent" : 0
 			},
 			{
 				"command" : 8,
 				"file" : 1,
-				"line" : 13,
+				"line" : 14,
 				"parent" : 0
 			},
 			{
@@ -274,7 +274,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always"
+					"fragment" : "-DQT_QML_DEBUG -O2 -g -DNDEBUG -std=gnu++17 -fdiagnostics-color=always"
 				}
 			],
 			"defines" : 
@@ -294,6 +294,10 @@
 				{
 					"backtrace" : 24,
 					"define" : "QT_NEEDS_QMAIN"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "QT_NO_DEBUG"
 				},
 				{
 					"backtrace" : 7,
@@ -389,11 +393,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "Expense_tracker_autogen::@6890427a1f51a3e7e1df"
+			"id" : "Expense_tracker_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "Expense_tracker_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "Expense_tracker_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "Expense_tracker::@6890427a1f51a3e7e1df",
@@ -416,7 +420,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-DQT_QML_DEBUG -g",
+				"fragment" : "-DQT_QML_DEBUG -O2 -g -DNDEBUG",
 				"role" : "flags"
 			},
 			{

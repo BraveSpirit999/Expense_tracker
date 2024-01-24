@@ -1,7 +1,7 @@
 # Additional clean files
 cmake_minimum_required(VERSION 3.16)
 
-if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "Debug")
+if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "RelWithDebInfo")
   file(REMOVE_RECURSE
   "CMakeFiles\\Expense_tracker_autogen.dir\\AutogenUsed.txt"
   "CMakeFiles\\Expense_tracker_autogen.dir\\ParseCache.txt"

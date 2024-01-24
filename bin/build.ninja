@@ -12,7 +12,7 @@
 
 # =============================================================================
 # Project: Expense_tracker
-# Configurations: Debug
+# Configurations: RelWithDebInfo
 # =============================================================================
 
 #############################################
@@ -24,7 +24,7 @@ ninja_required_version = 1.5
 #############################################
 # Set configuration variable for custom commands.
 
-CONFIGURATION = Debug
+CONFIGURATION = RelWithDebInfo
 # =============================================================================
 # Include auxiliary files.
 
@@ -49,50 +49,50 @@ cmake_ninja_workdir = E$:/progr/c++/QT/Expense_tracker/bin/
 
 build cmake_object_order_depends_target_Expense_tracker: phony || Expense_tracker_autogen Expense_tracker_autogen/EWIEGA46WW/qrc_resourse.cpp Expense_tracker_autogen/mocs_compilation.cpp Expense_tracker_autogen/timestamp Expense_tracker_autogen_timestamp_deps
 
-build CMakeFiles/Expense_tracker.dir/Expense_tracker_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__Expense_tracker_unscanned_Debug E$:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_Expense_tracker
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+build CMakeFiles/Expense_tracker.dir/Expense_tracker_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__Expense_tracker_unscanned_RelWithDebInfo E$:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_Expense_tracker
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Expense_tracker.dir\Expense_tracker_autogen\mocs_compilation.cpp.obj.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  FLAGS = -DQT_QML_DEBUG -O2 -g -DNDEBUG -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -IE:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen/include -isystem E:/progr/QT/6.6.1/mingw_64/include/QtCore -isystem E:/progr/QT/6.6.1/mingw_64/include -isystem E:/progr/QT/6.6.1/mingw_64/mkspecs/win32-g++ -isystem E:/progr/QT/6.6.1/mingw_64/include/QtWidgets -isystem E:/progr/QT/6.6.1/mingw_64/include/QtGui -isystem E:/progr/QT/6.6.1/mingw_64/include/QtSql
   OBJECT_DIR = CMakeFiles\Expense_tracker.dir
   OBJECT_FILE_DIR = CMakeFiles\Expense_tracker.dir\Expense_tracker_autogen
 
-build CMakeFiles/Expense_tracker.dir/widget.cpp.obj: CXX_COMPILER__Expense_tracker_unscanned_Debug E$:/progr/c++/QT/Expense_tracker/widget.cpp || cmake_object_order_depends_target_Expense_tracker
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+build CMakeFiles/Expense_tracker.dir/widget.cpp.obj: CXX_COMPILER__Expense_tracker_unscanned_RelWithDebInfo E$:/progr/c++/QT/Expense_tracker/widget.cpp || cmake_object_order_depends_target_Expense_tracker
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Expense_tracker.dir\widget.cpp.obj.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  FLAGS = -DQT_QML_DEBUG -O2 -g -DNDEBUG -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -IE:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen/include -isystem E:/progr/QT/6.6.1/mingw_64/include/QtCore -isystem E:/progr/QT/6.6.1/mingw_64/include -isystem E:/progr/QT/6.6.1/mingw_64/mkspecs/win32-g++ -isystem E:/progr/QT/6.6.1/mingw_64/include/QtWidgets -isystem E:/progr/QT/6.6.1/mingw_64/include/QtGui -isystem E:/progr/QT/6.6.1/mingw_64/include/QtSql
   OBJECT_DIR = CMakeFiles\Expense_tracker.dir
   OBJECT_FILE_DIR = CMakeFiles\Expense_tracker.dir
 
-build CMakeFiles/Expense_tracker.dir/stylehelper.cpp.obj: CXX_COMPILER__Expense_tracker_unscanned_Debug E$:/progr/c++/QT/Expense_tracker/stylehelper.cpp || cmake_object_order_depends_target_Expense_tracker
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+build CMakeFiles/Expense_tracker.dir/stylehelper.cpp.obj: CXX_COMPILER__Expense_tracker_unscanned_RelWithDebInfo E$:/progr/c++/QT/Expense_tracker/stylehelper.cpp || cmake_object_order_depends_target_Expense_tracker
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Expense_tracker.dir\stylehelper.cpp.obj.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  FLAGS = -DQT_QML_DEBUG -O2 -g -DNDEBUG -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -IE:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen/include -isystem E:/progr/QT/6.6.1/mingw_64/include/QtCore -isystem E:/progr/QT/6.6.1/mingw_64/include -isystem E:/progr/QT/6.6.1/mingw_64/mkspecs/win32-g++ -isystem E:/progr/QT/6.6.1/mingw_64/include/QtWidgets -isystem E:/progr/QT/6.6.1/mingw_64/include/QtGui -isystem E:/progr/QT/6.6.1/mingw_64/include/QtSql
   OBJECT_DIR = CMakeFiles\Expense_tracker.dir
   OBJECT_FILE_DIR = CMakeFiles\Expense_tracker.dir
 
-build CMakeFiles/Expense_tracker.dir/dialog.cpp.obj: CXX_COMPILER__Expense_tracker_unscanned_Debug E$:/progr/c++/QT/Expense_tracker/dialog.cpp || cmake_object_order_depends_target_Expense_tracker
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+build CMakeFiles/Expense_tracker.dir/dialog.cpp.obj: CXX_COMPILER__Expense_tracker_unscanned_RelWithDebInfo E$:/progr/c++/QT/Expense_tracker/dialog.cpp || cmake_object_order_depends_target_Expense_tracker
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Expense_tracker.dir\dialog.cpp.obj.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  FLAGS = -DQT_QML_DEBUG -O2 -g -DNDEBUG -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -IE:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen/include -isystem E:/progr/QT/6.6.1/mingw_64/include/QtCore -isystem E:/progr/QT/6.6.1/mingw_64/include -isystem E:/progr/QT/6.6.1/mingw_64/mkspecs/win32-g++ -isystem E:/progr/QT/6.6.1/mingw_64/include/QtWidgets -isystem E:/progr/QT/6.6.1/mingw_64/include/QtGui -isystem E:/progr/QT/6.6.1/mingw_64/include/QtSql
   OBJECT_DIR = CMakeFiles\Expense_tracker.dir
   OBJECT_FILE_DIR = CMakeFiles\Expense_tracker.dir
 
-build CMakeFiles/Expense_tracker.dir/main.cpp.obj: CXX_COMPILER__Expense_tracker_unscanned_Debug E$:/progr/c++/QT/Expense_tracker/main.cpp || cmake_object_order_depends_target_Expense_tracker
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+build CMakeFiles/Expense_tracker.dir/main.cpp.obj: CXX_COMPILER__Expense_tracker_unscanned_RelWithDebInfo E$:/progr/c++/QT/Expense_tracker/main.cpp || cmake_object_order_depends_target_Expense_tracker
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Expense_tracker.dir\main.cpp.obj.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  FLAGS = -DQT_QML_DEBUG -O2 -g -DNDEBUG -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -IE:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen/include -isystem E:/progr/QT/6.6.1/mingw_64/include/QtCore -isystem E:/progr/QT/6.6.1/mingw_64/include -isystem E:/progr/QT/6.6.1/mingw_64/mkspecs/win32-g++ -isystem E:/progr/QT/6.6.1/mingw_64/include/QtWidgets -isystem E:/progr/QT/6.6.1/mingw_64/include/QtGui -isystem E:/progr/QT/6.6.1/mingw_64/include/QtSql
   OBJECT_DIR = CMakeFiles\Expense_tracker.dir
   OBJECT_FILE_DIR = CMakeFiles\Expense_tracker.dir
 
-build CMakeFiles/Expense_tracker.dir/Expense_tracker_autogen/EWIEGA46WW/qrc_resourse.cpp.obj: CXX_COMPILER__Expense_tracker_unscanned_Debug E$:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen/EWIEGA46WW/qrc_resourse.cpp || cmake_object_order_depends_target_Expense_tracker
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+build CMakeFiles/Expense_tracker.dir/Expense_tracker_autogen/EWIEGA46WW/qrc_resourse.cpp.obj: CXX_COMPILER__Expense_tracker_unscanned_RelWithDebInfo E$:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen/EWIEGA46WW/qrc_resourse.cpp || cmake_object_order_depends_target_Expense_tracker
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Expense_tracker.dir\Expense_tracker_autogen\EWIEGA46WW\qrc_resourse.cpp.obj.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  FLAGS = -DQT_QML_DEBUG -O2 -g -DNDEBUG -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -IE:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen/include -isystem E:/progr/QT/6.6.1/mingw_64/include/QtCore -isystem E:/progr/QT/6.6.1/mingw_64/include -isystem E:/progr/QT/6.6.1/mingw_64/mkspecs/win32-g++ -isystem E:/progr/QT/6.6.1/mingw_64/include/QtWidgets -isystem E:/progr/QT/6.6.1/mingw_64/include/QtGui -isystem E:/progr/QT/6.6.1/mingw_64/include/QtSql
   OBJECT_DIR = CMakeFiles\Expense_tracker.dir
   OBJECT_FILE_DIR = CMakeFiles\Expense_tracker.dir\Expense_tracker_autogen\EWIEGA46WW
@@ -105,8 +105,8 @@ build CMakeFiles/Expense_tracker.dir/Expense_tracker_autogen/EWIEGA46WW/qrc_reso
 #############################################
 # Link the executable Expense_tracker.exe
 
-build Expense_tracker.exe: CXX_EXECUTABLE_LINKER__Expense_tracker_Debug CMakeFiles/Expense_tracker.dir/Expense_tracker_autogen/mocs_compilation.cpp.obj CMakeFiles/Expense_tracker.dir/widget.cpp.obj CMakeFiles/Expense_tracker.dir/stylehelper.cpp.obj CMakeFiles/Expense_tracker.dir/dialog.cpp.obj CMakeFiles/Expense_tracker.dir/main.cpp.obj CMakeFiles/Expense_tracker.dir/Expense_tracker_autogen/EWIEGA46WW/qrc_resourse.cpp.obj | E$:/progr/QT/6.6.1/mingw_64/lib/libQt6Widgets.a E$:/progr/QT/6.6.1/mingw_64/lib/libQt6Sql.a E$:/progr/QT/6.6.1/mingw_64/lib/libQt6Gui.a E$:/progr/QT/6.6.1/mingw_64/lib/libQt6Core.a E$:/progr/QT/6.6.1/mingw_64/lib/libQt6EntryPoint.a || Expense_tracker_autogen Expense_tracker_autogen_timestamp_deps
-  FLAGS = -DQT_QML_DEBUG -g
+build Expense_tracker.exe: CXX_EXECUTABLE_LINKER__Expense_tracker_RelWithDebInfo CMakeFiles/Expense_tracker.dir/Expense_tracker_autogen/mocs_compilation.cpp.obj CMakeFiles/Expense_tracker.dir/widget.cpp.obj CMakeFiles/Expense_tracker.dir/stylehelper.cpp.obj CMakeFiles/Expense_tracker.dir/dialog.cpp.obj CMakeFiles/Expense_tracker.dir/main.cpp.obj CMakeFiles/Expense_tracker.dir/Expense_tracker_autogen/EWIEGA46WW/qrc_resourse.cpp.obj | E$:/progr/QT/6.6.1/mingw_64/lib/libQt6Widgets.a E$:/progr/QT/6.6.1/mingw_64/lib/libQt6Sql.a E$:/progr/QT/6.6.1/mingw_64/lib/libQt6Gui.a E$:/progr/QT/6.6.1/mingw_64/lib/libQt6Core.a E$:/progr/QT/6.6.1/mingw_64/lib/libQt6EntryPoint.a || Expense_tracker_autogen Expense_tracker_autogen_timestamp_deps
+  FLAGS = -DQT_QML_DEBUG -O2 -g -DNDEBUG
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = E:/progr/QT/6.6.1/mingw_64/lib/libQt6Widgets.a  E:/progr/QT/6.6.1/mingw_64/lib/libQt6Sql.a  E:/progr/QT/6.6.1/mingw_64/lib/libQt6Gui.a  -ld3d11  -ldxgi  -ldxguid  -ld3d12  E:/progr/QT/6.6.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  E:/progr/QT/6.6.1/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Expense_tracker.dir
@@ -199,7 +199,7 @@ build Expense_tracker_autogen: phony CMakeFiles/Expense_tracker_autogen Expense_
 # Custom command for Expense_tracker_autogen\timestamp
 
 build Expense_tracker_autogen/timestamp Expense_tracker_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}Expense_tracker_autogen/timestamp ${cmake_ninja_workdir}Expense_tracker_autogen/mocs_compilation.cpp: CUSTOM_COMMAND E$:/progr/QT/6.6.1/mingw_64/./bin/moc.exe E$:/progr/QT/6.6.1/mingw_64/./bin/uic.exe || Expense_tracker_autogen_timestamp_deps
-  COMMAND = cmd.exe /C "cd /D E:\progr\c++\QT\Expense_tracker\bin && E:\progr\QT\Tools\CMake_64\bin\cmake.exe -E cmake_autogen E:/progr/c++/QT/Expense_tracker/bin/CMakeFiles/Expense_tracker_autogen.dir/AutogenInfo.json Debug && E:\progr\QT\Tools\CMake_64\bin\cmake.exe -E touch E:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen/timestamp && E:\progr\QT\Tools\CMake_64\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile E:/progr/c++/QT/Expense_tracker E:/progr/c++/QT/Expense_tracker E:/progr/c++/QT/Expense_tracker/bin E:/progr/c++/QT/Expense_tracker/bin E:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen/deps E:/progr/c++/QT/Expense_tracker/bin/CMakeFiles/d/c42af2fd8242d710d74300fa3864a9f2442a0991acf241c409eeda6eb734f5ba.d"
+  COMMAND = cmd.exe /C "cd /D E:\progr\c++\QT\Expense_tracker\bin && E:\progr\QT\Tools\CMake_64\bin\cmake.exe -E cmake_autogen E:/progr/c++/QT/Expense_tracker/bin/CMakeFiles/Expense_tracker_autogen.dir/AutogenInfo.json RelWithDebInfo && E:\progr\QT\Tools\CMake_64\bin\cmake.exe -E touch E:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen/timestamp && E:\progr\QT\Tools\CMake_64\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile E:/progr/c++/QT/Expense_tracker E:/progr/c++/QT/Expense_tracker E:/progr/c++/QT/Expense_tracker/bin E:/progr/c++/QT/Expense_tracker/bin E:/progr/c++/QT/Expense_tracker/bin/Expense_tracker_autogen/deps E:/progr/c++/QT/Expense_tracker/bin/CMakeFiles/d/c42af2fd8242d710d74300fa3864a9f2442a0991acf241c409eeda6eb734f5ba.d"
   DESC = Automatic MOC and UIC for target Expense_tracker
   depfile = E:/progr/c++/QT/Expense_tracker/bin/CMakeFiles/d/c42af2fd8242d710d74300fa3864a9f2442a0991acf241c409eeda6eb734f5ba.d
   restat = 1
@@ -209,7 +209,7 @@ build Expense_tracker_autogen/timestamp Expense_tracker_autogen/mocs_compilation
 # Custom command for Expense_tracker_autogen\EWIEGA46WW\qrc_resourse.cpp
 
 build Expense_tracker_autogen/EWIEGA46WW/qrc_resourse.cpp | ${cmake_ninja_workdir}Expense_tracker_autogen/EWIEGA46WW/qrc_resourse.cpp: CUSTOM_COMMAND E$:/progr/c++/QT/Expense_tracker/resourse.qrc CMakeFiles/Expense_tracker_autogen.dir/AutoRcc_resourse_EWIEGA46WW_Info.json E$:/progr/c++/QT/Expense_tracker/resourse/icon/delete_white_24dp.svg E$:/progr/c++/QT/Expense_tracker/resourse/icon/sports_esports_white_24dp.svg E$:/progr/c++/QT/Expense_tracker/resourse/icon/call_received_white_24dp.svg E$:/progr/c++/QT/Expense_tracker/resourse/icon/post_add_white_24dp.svg E$:/progr/c++/QT/Expense_tracker/resourse/icon/edit_white_24dp.svg E$:/progr/c++/QT/Expense_tracker/resourse/icon/local_grocery_store_white_24dp.svg E$:/progr/c++/QT/Expense_tracker/resourse/icon/list_white_24dp.svg E$:/progr/c++/QT/Expense_tracker/resourse/icon/delete_FILL0_wght400_GRAD0_opsz24.svg E$:/progr/c++/QT/Expense_tracker/resourse/icon/directions_car_white_24dp.svg E$:/progr/c++/QT/Expense_tracker/resourse/icon/delete_black_24dp.svg E$:/progr/c++/QT/Expense_tracker/resourse/icon/north_west_white_24dp.svg E$:/progr/QT/6.6.1/mingw_64/./bin/rcc.exe || Expense_tracker_autogen Expense_tracker_autogen_timestamp_deps
-  COMMAND = cmd.exe /C "cd /D E:\progr\c++\QT\Expense_tracker\bin && E:\progr\QT\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc E:/progr/c++/QT/Expense_tracker/bin/CMakeFiles/Expense_tracker_autogen.dir/AutoRcc_resourse_EWIEGA46WW_Info.json Debug"
+  COMMAND = cmd.exe /C "cd /D E:\progr\c++\QT\Expense_tracker\bin && E:\progr\QT\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc E:/progr/c++/QT/Expense_tracker/bin/CMakeFiles/Expense_tracker_autogen.dir/AutoRcc_resourse_EWIEGA46WW_Info.json RelWithDebInfo"
   DESC = Automatic RCC for resourse.qrc
   restat = 1
 
@@ -217,7 +217,7 @@ build Expense_tracker_autogen/EWIEGA46WW/qrc_resourse.cpp | ${cmake_ninja_workdi
 #############################################
 # Phony custom command for CMakeFiles\Expense_tracker_autogen_timestamp_deps
 
-build CMakeFiles/Expense_tracker_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Expense_tracker_autogen_timestamp_deps: phony E$:/progr/QT/6.6.1/mingw_64/./bin/uic.exe E$:/progr/QT/6.6.1/mingw_64/./bin/moc.exe E$:/progr/QT/6.6.1/mingw_64/lib/libQt6Core.a E$:/progr/QT/6.6.1/mingw_64/lib/libQt6Widgets.a E$:/progr/QT/6.6.1/mingw_64/lib/libQt6Sql.a
+build CMakeFiles/Expense_tracker_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Expense_tracker_autogen_timestamp_deps: phony E$:/progr/QT/6.6.1/mingw_64/lib/libQt6Core.a E$:/progr/QT/6.6.1/mingw_64/./bin/moc.exe E$:/progr/QT/6.6.1/mingw_64/./bin/uic.exe E$:/progr/QT/6.6.1/mingw_64/lib/libQt6Widgets.a E$:/progr/QT/6.6.1/mingw_64/lib/libQt6Sql.a
 
 
 #############################################
@@ -261,7 +261,7 @@ build .qtc/package-manager/auto-setup.cmake CMakeCache.txt CMakeFiles/3.27.7/CMa
 # Clean additional files.
 
 build CMakeFiles/clean.additional: CLEAN_ADDITIONAL
-  CONFIG = Debug
+  CONFIG = RelWithDebInfo
 
 
 #############################################
